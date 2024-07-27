@@ -1,17 +1,13 @@
 .searchBoxWraper {
-    display: flex;
-    flex-direction: column;
-    /* gap:6px; */
-    
+  display: flex;
+  flex-direction: column;
 }
 
-
-
 .serchBoxInput {
-    padding:10px 12px;
-    border-radius: 8px;
+  padding: 10px 12px;
+  border-radius: 8px;
 }
 
 .searchBoxLabel {
-    text-align: left;
+  text-align: left;
 }
