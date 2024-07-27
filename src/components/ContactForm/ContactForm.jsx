@@ -91,14 +91,20 @@ export default function ContactForm() {
       //   }
       // })
      
-  dispatch (
+  // dispatch (
+  //   addContact({
+  //         id: nanoid(5),
+  //         ...values,
+  //       })
+  // )
+
+ dispatch (
     addContact({
-          id: nanoid(5),
+          
           ...values,
         })
   )
-
-
+  
       actions.resetForm();
     }
   

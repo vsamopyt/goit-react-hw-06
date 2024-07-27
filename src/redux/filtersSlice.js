@@ -25,7 +25,8 @@ const slice = createSlice ({
 console.log(action.payload);
                 // name = state.action.payload;
                 // console.log(state);
-                return {name: action.payload};
+                // return {name: action.payload};
+                state.name = action.payload;
                
             }, 
         }
